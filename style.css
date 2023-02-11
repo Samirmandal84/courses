@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: #f64040;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.div1{
+    display: flex;
+    justify-content:flex-start;
+    position: relative;
+    
+}
+.div2{
+    display: flex;
+    justify-content: flex-end;
+}
+.email{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 30px;
+    text-transform: uppercase;
+}
+.email:hover, .phone:hover, .pay-anker:hover{
+    color: rgb(12, 225, 12);
+}
+.phone{
+ color: #fff;
+ text-decoration: none;
+ font-size: 18px;
+ margin-left: 20px;
+ text-transform: uppercase;
+}
+.pay-anker{
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.container{
+    display: flex;
+    /* align-items: center; */
+    /* color: #ab1414; */
+    /* background: rgba(152, 149, 149, 0.6); */
+    width: 100%;
+    height: 35vh;
+    /* justify-content: center; */
+}
+.logo-img{
+    /* width: 20%; */
+    height: 10vh;
+    margin-left: 20px;
+    /* margin-top: 10px; */
+    display: inline-block;
+    /* height: 20vh; */
+}
+h1{
+    display: inline;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 50px;
+    letter-spacing: .4rem;
+    
+}
+.secondary-div{
+    display: inline;
+    align-items: center;
+    justify-content:flex-end;
+}
+.img-div, .heading-div{
+    display: inline;
+}
+.heading-div{
+    /* display: flex; */
+    text-align: center;
+    margin-left: 20px;
+    justify-content: center;
+}
+h2{
+    color: #fff;
+    text-transform: uppercase;
+    margin: 13px auto;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 12%;
+    
+}
+.div-heading{
+   margin: 10px auto 0;
+   height: 30vh;
+   width: 60%;
+   background: url(img/bg6.jpg) ;
+   background-size: cover;
+   background-position: center;
+   border-radius: 10px;
+}
+h3{
+    color: #595959;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+    font-weight: 700;
+}
+.para-main{
+    text-align: left;
+    display:flex;
+    font-size: 20px;
+    margin-bottom: 10px;
+    /* width: 50%; */
+    color: rgb(78, 78, 79);
+}
+.img-main{
+    display: inline-block;
+    margin: 10px 15px;
+    border-radius: 10px;
+    width: 30%;
+    margin-bottom: 50px;
+
+}
+.img-main2{
+    display: inline-block;
+    margin: 13px 15px;
+    /* border-radius: 10px; */
+    width: 28%;
+    margin-bottom: 50px;
+}
+.main-content{
+    padding: 0 40px;
+    justify-content: space-between;
+}
+.courses{
+    color: #3c3c3c;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+    font-weight: 700;
+}
+.courses-list{
+    margin-left: 20%;
+    
+}
+.courses-list a{
+    padding: 8px;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+a:hover{
+    color: green;
+}
+
+/* responsive */
+@media (max-width:1300px) {
+    h1{
+        font-size: 25px;
+    }
+}
+@media (max-width: 1150px){
+    h1{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .email, .phone, .pay-anker{
+        font-size: 16px;
+    }
+    .logo-img{
+        /* width: 20%;
+         */
+         height: 8vh;
+         margin-right: 10px;
+    }
+    .para-main{
+        font-size: 20px;
+    }
+}
+@media (max-width: 940px) {
+
+    .logo-img{
+        /* width: 20%;
+         */
+         height: 5vh;
+         margin-right: 10px;
+    }
+    .email, .phone, .pay-anker{
+        font-size: 12px;
+    }
+    h1{
+        font-size: 16px;
+        /* margin-left: 10px; */
+    }
+    h2{
+        font-size: 25px;
+    }
+    h3{
+        font-size: 25px;
+    }
+    .img-main,.img-main2{
+        width: 45%;
+    }
+    .div-heading{
+        height: 20vh;
+        margin-bottom: 20px;
+    }
+    .container{
+        height: 25vh;
+    }
+    h2{
+        font-size: 20px;
+        margin-left: 30px;
+    }
+}
+@media (max-width:710px) {
+    .img-main,.img-main2{
+        width: 100%;
+    }
+    h1{
+        letter-spacing: normal;
+        font-size: 14px;
+        margin-left: 0;
+        text-align: center;
+    }
+}
+@media (max-width:550px) {
+    h2{
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    h1{
+        letter-spacing: normal;
+        font-size: 10px;
+        margin-left: 0;
+        text-align: center;
+    }
+    .logo-img{
+        margin-right: 2px;
+    }
+    .email{
+        margin-right: 40px;
+    }
+}
+
+@media (max-width:450px) {
+    h2{
+        font-size: 20px;
+        margin-left: 20px;
+        display: block;
+    }
+    h1{
+        letter-spacing: normal;
+        font-size: 12px;
+        margin-left: 0;
+        /* text-align: center; */
+        /* margin-left: 10%; */
+        padding: 20px;
+    }
+    .logo-img{
+        margin-right: 2px;
+        display: block;
+        margin: 10px auto;
+    }
+    .para-main{
+        text-align: center;
+    }
+    header{
+        padding: 2px;
+    }
+    .phone, .email{
+        margin: 2px;
+        padding: 2px;
+    }
+    .email{
+        margin-right: 15px;
+    }
+}
