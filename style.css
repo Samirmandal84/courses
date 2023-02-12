@@ -138,6 +138,7 @@ h3{
 }
 .main-content{
     padding: 0 40px;
+    align-items: center;
     justify-content: space-between;
 }
 .courses{
@@ -229,7 +230,8 @@ a:hover{
         letter-spacing: normal;
         font-size: 14px;
         margin-left: 0;
-        text-align: center;
+        /* text-align: center; */
+        
     }
 }
 @media (max-width:550px) {
@@ -248,10 +250,17 @@ a:hover{
     }
     .email{
         margin-right: 40px;
+
+    }
+
+    .phone,.email,.pay-anker{
+        font-size: 10px;
     }
 }
 
-@media (max-width:450px) {
+
+
+@media (max-width:490px) {
     h2{
         font-size: 20px;
         margin-left: 20px;
@@ -260,10 +269,10 @@ a:hover{
     h1{
         letter-spacing: normal;
         font-size: 12px;
-        margin-left: 0;
+        /* margin-left: 8%; */
         /* text-align: center; */
         /* margin-left: 10%; */
-        padding: 20px;
+        padding: 10%;
     }
     .logo-img{
         margin-right: 2px;
@@ -283,4 +292,37 @@ a:hover{
     .email{
         margin-right: 15px;
     }
+    .phone,.email,.pay-anker{
+        font-size: 10px;
+    }
+}
+
+@media (max-width:420px) {
+    h1{
+        font-size: 10px;
+        padding: 6%;
+    }
+    .phone,.email,.pay-anker{
+        font-size: 8px;
+    }
+
+}
+
+@media (max-width:390px) {
+    h1{
+        font-size: 10px;
+        padding: 6%;
+    }
+    .phone,.email,.pay-anker{
+        font-size: 8px;
+    }
+
+}
+
+@media (max-width:320px) {
+    h1{
+        font-size: 10px;
+        padding: 3%;
+    }
+
 }
